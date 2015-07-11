@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    Name: <input type="text" id="Name" placeholder="Enter Pet Name"/><br/>
+    Species: <input type="text" id="Species" placeholder="Enter Pet Species"/><br/>
+    Picture URL: <input type="text" id="Picture" placeholder="Enter Picture URL" /><br/>
+    <button onclick="MyApp.AddPet();">Add Pet</button>
+    <div id="petOutput">
+
+
+    </div>
+    <!--MODAL BEGINS HERE-->
+    <div class="modal fade" id="EditModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 id="ModalTitle" class="modal-title">Update Pet</h4>
+                </div>
+                <div class="modal-body">
+                    <label>Edit Name:</label>
+                    <input type="text" id="EditName" placeholder="Edit Pet Name" /><br />
+                    <label>Edit Description:</label>
+                    <input type="text" id="EditSpecies" placeholder="Edit Pet Species" /><br />
+                    <label>Edit Picture URL:</label>
+                    <input type="text" id="EditPicture" placeholder="Edit Img URL" /><br />
+                    <input type="hidden" id="EditId" />
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" onclick="MyApp.SaveUpdatePet();">Save Pet</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!--Jquery Modal Commands to call/hide-->
+    <!--$('#EditModal').modal()-->
+    <!--$('#EditModal').modal('hide')-->
+
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="myJS.js"></script>
+</body>
+</html>
