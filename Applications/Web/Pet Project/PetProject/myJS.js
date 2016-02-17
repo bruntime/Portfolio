@@ -1,6 +1,6 @@
 ﻿MyApp = {};
 
-MyApp.Url = "https://petproject.firebaseio.com/"
+MyApp.Url = "https://fiery-fire-7677.firebaseio.com/"
 
 MyApp.Pets = [];
 
@@ -14,10 +14,10 @@ MyApp.WriteTable = function () {
             holder += MyApp.Pets[o][p];
             holder += "</td>";
         }
-        holder += "<td><button"+" onclick='MyApp.DeletePet(\""+MyApp.Pets[o].id+"\"); MyApp.ClearFields();'>Delete</button></td>";
+        holder += "<td><button" + " onclick='MyApp.DeletePet(\"" + MyApp.Pets[o].id + "\"); MyApp.ClearFields();'>Delete</button></td>";
         holder += "<td><div class='btn btn-warning' + onclick='MyApp.ShowUpdatePet(\"" + MyApp.Pets[o].id + "\")' >Edit</div></td>"
         holder += "</tr>";
-   }
+    }
     holder += "</table>";
     document.getElementById("petOutput").innerHTML = holder;
 };
@@ -31,7 +31,7 @@ MyApp.AddPet = function () {
     MyApp.PostPet(pet, MyApp.GetPets);
 };
 
-//Showinfo for update
+//Show info for update
 MyApp.ShowUpdatePet = function (id) {
     var pet = MyApp.Pets[id];
     document.getElementById("EditName").value = pet.name;
@@ -42,19 +42,13 @@ MyApp.ShowUpdatePet = function (id) {
     $('#EditModal').modal();
 };
 
-//Save info from update
-//MyApp.SaveUpdatePet = function () {
-   // var
-    //};
-
-
 //Delete Pet
-MyApp.DeletePet = function(id){
+MyApp.DeletePet = function (id) {
     var request = new XMLHttpRequest();
-    request.open("DELETE", MyApp.Url +id +"/.json");
-    request.onload = function() {
+    request.open("DELETE", MyApp.Url + id + "/.json");
+    request.onload = function () {
         MyApp.GetPets();
-   }
+    }
     request.send();
 };
 
@@ -68,7 +62,7 @@ MyApp.ClearFields = function () {
 //Post Pet
 MyApp.PostPet = function (pet, callback) {
     var request = new XMLHttpRequest();
-    request.open('POST', MyApp.Url + '.json', true);
+    request.open('POST', MyApp.Url, + '.json', true);
     request.onload = function () {
         if (this.status >= 200 && this.status < 400) {
             alert("Response Received");
@@ -76,7 +70,8 @@ MyApp.PostPet = function (pet, callback) {
             callback(data);
         }
         else {
-            console.log(this.response);}
+            console.log(this.response);
+        }
     };
     request.onerror = function () {
         console.log("Com Error on Post Pets");
@@ -84,17 +79,13 @@ MyApp.PostPet = function (pet, callback) {
     request.send(JSON.stringify(pet));
 };
 
-//Delete Pet
-
-//Update Pet
-
 //GET PET ARRAY FROM FIREBASE
 MyApp.GetPets = function (callback) {
-    alert("Get Pets Is Running");
+    //alert("Get Pets Is Running");
     var request = new XMLHttpRequest();
-    request.open('GET', MyApp.Url + '.json', true);
+    request.open('GET', MyApp.Url, + '.json', true);
     request.onload = function () {
-        if(this.status >= 200 && this.status < 400) {
+        if (this.status >= 200 && this.status < 400) {
             var data = JSON.parse(this.response);
             if (typeof callback === "function") {
                 callback(data);
@@ -109,7 +100,7 @@ MyApp.GetPets = function (callback) {
             }
         }
     };
-    request.onerror = function () {console.log("Com Error on Get Pets")};
+    request.onerror = function () { console.log("Error on Get Pets") };
     request.send();
 };
 
