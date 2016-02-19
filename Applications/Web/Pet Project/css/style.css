@@ -1,0 +1,77 @@
+body {
+    background-color: #E4E4AB;
+}
+
+header, footer {
+    background-color: #4C0000;
+    color: white;
+    /*margin: 5px;*/
+    text-align:center;
+    text-transform:lowercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    font-size: 20px;
+    padding: 1px;
+    letter-spacing: 75px;
+}
+
+.row {
+    margin: 20px 10px;
+}
+
+form input {
+    width: 250px;
+}
+
+form button {
+    width: 100px;
+}
+
+th {
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 5px;
+    background-color: #030322;
+    color: aliceblue;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    display: table;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+tr {
+    background-color: #BCD6E6;
+    text-align: center;
+}
+
+footer {
+    font-size: 15px;
+    letter-spacing: 25px;
+}
+
+.carousel {
+    background-color: red;
+    width: 60%;
+    margin-top: 25px;
+    align-self: center;
+}
+
+.carousel img {
+    margin-left: 20%;
+    max-height: 200px;
+}
+
+
+#DeleteBtn {
+    float: left;
+}
+
+#petpic {
+    width: 70px;
+}

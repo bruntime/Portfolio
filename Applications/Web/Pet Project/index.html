@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Pet Database</title>
+
+    <meta name="type" content="pet database">
+    <meta name="author" content="database of pets in pet rescue center">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <h1>My Pet Database</h1>
+    </header>
+
+    <div class="container-fluid">
+        <hr />
+        <ul class="breadcrumb">
+            <li>
+                <a href="index.html">Home</a> <span class="divider">/</span>
+            </li>
+            <li class="active">
+                Pet Info
+            </li>
+        </ul>
+
+        <div class="row">
+            <div class="col-md-4">
+                <h2>
+                    Add a Pet
+                </h2>
+
+                <form onsubmit="return checkvalue(this)" class="form-horizontal pure-form pure-form-aligned" role="form">
+                    <div class="form-group">
+                        <div class="col-sm-10 pure-control-group">
+                            <input type="text" id="Name" placeholder="Pet Name (Required)" required />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-10 pure-control-group">
+                            <input type="text" id="Type" placeholder="Pet Type (Required)" required />
+                        </div>
+                    </div>
+
+                    <div class="form-group pure-control-group">
+                        <div class="col-sm-10">
+                            <input type="text" id="Picture" placeholder="Pet Picture (Required)" required/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button onclick="MyApp.AddPet();" class="btn btn-primary">
+                                Add Pet
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-md-8">
+                <div class="carousel slide" id="carousel">
+                    <ol class="carousel-indicators">
+                        <li class="active" data-slide-to="0" data-target="#carousel">
+                        </li>
+                        <li data-slide-to="1" data-target="#carousel">
+                        </li>
+                        <li data-slide-to="2" data-target="#carousel">
+                        </li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img alt="First Pet" id ="FirstPic" src="https://pixabay.com/static/uploads/photo/2015/11/30/11/34/cat-1070137_960_720.jpg">
+                            <div class="carousel-caption">
+                                <h4 id="FirstCarouselItem">
+                                    First Pet
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img alt="Second Pet" id ="SecondPic" src="https://pixabay.com/static/uploads/photo/2014/03/04/19/53/dog-279698_960_720.jpg">
+                            <div class="carousel-caption">
+                                <h4 id="SecondCarouselItem">
+                                    Second Pet
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img alt="Third Pet" id ="ThirdPic" src="https://pixabay.com/static/uploads/photo/2015/04/17/14/14/hamster-727293_960_720.jpg">
+                            <div class="carousel-caption">
+                                <h4 id="ThirdCarouselItem">
+                                    Third Pet
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#carousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12" id="TableOutput">          
+            </div>
+        </div>
+
+        <!--MODAL BEGINS HERE-->
+        <div class="modal fade" id="EditModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 id="ModalTitle" class="modal-title">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        <input type="text" id="EditName" placeholder="Name" />
+                        <input type="text" id="EditType" placeholder="Type" />
+                        <input type="text" id="EditPicture" placeholder="Picture" />            
+                        <input type="hidden" id="EditId" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal" id="DeleteBtn" onclick="MyApp.DeletePet();">Delete</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" onclick="MyApp.SaveUpdatePet();">Save</button>
+                    </div>
+
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+        <footer>
+            &copy;2016 All My Pets
+        </footer>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
