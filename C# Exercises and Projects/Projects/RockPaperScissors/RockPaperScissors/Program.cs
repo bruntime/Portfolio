@@ -21,24 +21,7 @@ namespace RockPaperScissors
 
             for (int totalRounds = 0; totalRounds < userRounds; totalRounds++)
             {
-                //Generate a random number for the computer response to represent rock, paper, or scissors
-                //rock = 1, paper = 2, scissors = 3
-                int rockPaperOrScissors = rnd.Next(1, 4);
-                string computerResponse;
-
-                //convert generated number to rock, paper, or scissors
-                if (rockPaperOrScissors == 1)
-                {
-                    computerResponse = "rock";
-                }
-                else if (rockPaperOrScissors == 2)
-                {
-                    computerResponse = "paper";
-                }
-                else
-                {
-                    computerResponse = "scissors";
-                }
+                string computerResponse = GenerateRandomNumber.ComputerResponse();
 
                 //Ask the user to select a response - rock, paper, or scissors
                 Console.WriteLine("Rock, Paper, or Scissors?");
@@ -53,15 +36,12 @@ namespace RockPaperScissors
                 }
                 else if (userResponse == "rock" && computerResponse == "paper" || userResponse == "paper" && computerResponse == "scissors" || userResponse == "scissors" && computerResponse == "rock")
                 {
-                    //research error when using format: {0} {1}
-                    //System.FormatException: 'Index (zero based) must be greater than or equal to zero and less than the size of the argument list.'
-                    //Console.WriteLine("User loses with {0}, computer wins with: {1}", userResponse, computerResponse);
-                    Console.WriteLine("User loses with: " + userResponse + " computer wins with: " + computerResponse);
+                    Console.WriteLine("user loses with: {0}, computer wins with {1}", userResponse, computerResponse);
                     computerWins++;
                 }
-                else if(userResponse == "rock" && computerResponse == "scissors" || userResponse == "paper" && computerResponse == "rock" || userResponse == "scissors" && computerResponse == "paper")
+                else if (userResponse == "rock" && computerResponse == "scissors" || userResponse == "paper" && computerResponse == "rock" || userResponse == "scissors" && computerResponse == "paper")
                 {
-                    Console.WriteLine("User wins with: " + userResponse + " computer loses with " + computerResponse);
+                    Console.WriteLine("User wins with: {0}, computer loses with {1}" , userResponse, computerResponse);
                     userWins++;
                 }
                 //for all other responses
@@ -69,7 +49,7 @@ namespace RockPaperScissors
                 {
                     Console.WriteLine("No one wins because I don't know what you entered but it's not rock, paper or, scissors. " + userResponse + "? vs." + computerResponse);
                     disqualifiedRound++;
-                }               
+                }
             }
             Console.Write("TOTAL MATCHES: {0}, User Wins: {1}, Computer Wins {2}, Ties {3}, Disqualification(s): {4}", userRounds, userWins, computerWins, userComputerTies, disqualifiedRound);
             Console.ReadLine();
