@@ -73,3 +73,31 @@ C# Exercises and Projects/Projects/RockPaperScissors/RockPaperScissors/Propertie
 C# Exercises and Projects/Projects/RockPaperScissors/RockPaperScissors/bin/Debug/RockPaperScissors.exe.config
 C# Exercises and Projects/Projects/RockPaperScissors/RockPaperScissors/App.config
 C# Exercises and Projects/Projects/RockPaperScissors/.vs/RockPaperScissors/v15/.suo
+C# Exercises and Projects/Exercises/NumbersToWords/.vs/NumbersToWords/v15/.suo
+*.lock
+*.config
+*.cache
+*.dll
+*.pdb
+*.xml
+*.props
+*.targets
+*.nupkg
+C# Exercises and Projects/Exercises/NumbersToWords/NumbersToWordsTest/obj/Debug/NumbersToWordsTest.csproj.FileListAbsolute.txt
+C# Exercises and Projects/Exercises/NumbersToWords/NumbersToWordsTest/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+C# Exercises and Projects/Exercises/NumbersToWords/NumbersToWordsTest/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+*.ide
+C# Exercises and Projects/Exercises/NumbersToWords/NumbersToWords.sln
+C# Exercises and Projects/Exercises/NumbersToWords/NumbersToWords/bin/Debug/NumbersToWords.exe
+*.csproj
+C# Exercises and Projects/Exercises/NumbersToWords/NumbersToWords/obj/Debug/NumbersToWords.csproj.FileListAbsolute.txt
+C# Exercises and Projects/Exercises/NumbersToWords/NumbersToWords/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+C# Exercises and Projects/Exercises/NumbersToWords/NumbersToWords/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+C# Exercises and Projects/Exercises/NumbersToWords/NumbersToWords/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+C# Exercises and Projects/Exercises/NumbersToWords/NumbersToWords/Properties/AssemblyInfo.cs
+C# Exercises and Projects/Exercises/NumbersToWords/NumbersToWordsTest/bin/Debug/NumbersToWords.exe
+C# Exercises and Projects/Exercises/NumbersToWords/NumbersToWords/obj/Debug/NumbersToWords.exe
+*.CopyComplete
+C# Exercises and Projects/Exercises/NumbersToWords/NumbersToWordsTest/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+C# Exercises and Projects/Exercises/NumbersToWords/NumbersToWordsTest/Properties/AssemblyInfo.cs
+C# Exercises and Projects/Exercises/NumbersToWords/Readme.txt
