@@ -29,7 +29,23 @@ namespace NumbersToWordsTest
             Assert.AreEqual(checkZeroToNine.ConvertZeroToNine(7), "seven");
             Assert.AreEqual(checkZeroToNine.ConvertZeroToNine(8), "eight");
             Assert.AreEqual(checkZeroToNine.ConvertZeroToNine(9), "nine");
+        }
 
+        [TestMethod]
+        public void TensTest()
+        {
+            CheckHelper checkTens = new CheckHelper();
+            
+            Assert.AreEqual(checkTens.ConvertTens(20), "twenty");
+        }
+
+        [TestMethod]
+        public void OverallTest()
+        {
+            CheckHelper checkEntireNumber = new CheckHelper();
+
+            Assert.AreEqual(checkEntireNumber.ConvertNumbersToWords(5), "five");
+            Assert.AreEqual(checkEntireNumber.ConvertNumbersToWords(30), "thirty");
         }
     }
 }

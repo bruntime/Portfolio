@@ -14,11 +14,6 @@ namespace NumbersToWords
 
         public string ConvertZeroToNine(decimal num)
         {
-            //for each number from 0 - 9, replace with word
-            //if num is equal to 0 replace with "zero"
-            //for 1 replace with "one"
-            //for 2 replace with "two"
-            //return each value
             if (num == 0) return "zero";
             if (num == 1) return "one";
             if (num == 2) return "two";
@@ -29,17 +24,61 @@ namespace NumbersToWords
             if (num == 7) return "seven";
             if (num == 8) return "eight";
             if (num == 9) return "nine";
+        
+            return null;
+        }
+
+        public string ConvertTenToNineteen(decimal num)
+        {
+            string[] tenToNineteen =
+            {
+                 "ten",
+                 "eleven",
+                 "twelve",
+                 "thirteen",
+                 "fourteen",
+                 "fifteen",
+                 "sixteen",
+                 "seventeen",
+                 "eighteen",
+                 "nineteen"
+            };
+
+            return null;
+        }
+
+        public string ConvertTens(decimal num)
+        {
+            if (num == 20) return "twenty";
+            if (num == 30) return "thirty";
+            if (num == 40) return "forty";
+            if (num == 50) return "fifty";
+            if (num == 60) return "sixty";
+            if (num == 70) return "seventy";
+            if (num == 80) return "eighty";
+            if (num == 90) return "ninety";
 
             return null;
         }
 
         public string ConvertNumbersToWords(decimal num)
         {
+            if(num.ToString().Length == 1)
+            {
+                ConvertZeroToNine(num);
+            }
+            if(num.ToString().Length == 2)
+            {
+                if(num < 20)
+                {
+                    ConvertTenToNineteen(num);
+      
+                }
+                else if(num >= 20) {
+                    ConvertTens(num);
+                }
+            }
             return null;
-            //10 - 19
-            //20 - 99
-            //100 - 999
-            //1000 - 9999
         }
     }
 }
