@@ -1,0 +1,12 @@
+Course: Basics of Object-Oriented Programming in C#
+
+Project Description: A console application (Warrior Wars) that puts together all the concepts learned in this Udemy course:
+
+class construction
+fields (including static) and properties
+read-only, write-only
+constants
+this keyword
+enumerations
+methods
+background / foreground color
