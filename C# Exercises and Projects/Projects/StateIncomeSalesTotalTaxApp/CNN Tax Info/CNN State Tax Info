@@ -576,453 +576,453 @@ function cnnm_setCookie(name, value, hours, path, domain, secure) {
 </tr>
 <tr valign="middle">
 	<td class="tease" style="font-weight: bold;">Alabama</td>
-	<td class="tease" align="right">19.16</td>
-	<td class="tease" align="right">36</td>
-	<td class="tease" align="right">43.25</td>
-	<td class="tease" align="right">16</td>
-	<td class="tease" align="right">87.58</td>
-	<td class="tease" align="right">48</td>
+	<td class="tease" align="right" id="AlabamaPIT">19.16</td>
+	<td class="tease" align="right" id="AlabamaPTR">36</td>
+	<td class="tease" align="right" id="AlabamaST">43.25</td>
+	<td class="tease" align="right" id="AlabamaSR">16</td>
+	<td class="tease" align="right" id="AlabamaTT">87.58</td>
+	<td class="tease" align="right" id="AlabamaTR">48</td>
 </tr>
 <tr valign="middle" bgcolor="#dddddd">
 	<td class="tease" style="font-weight: bold;">Alaska</td>
-	<td class="tease" align="right">0.00</td>
-	<td class="tease" align="right">45</td>
-	<td class="tease" align="right">15.42</td>
-	<td class="tease" align="right">47</td>
-	<td class="tease" align="right">102.76</td>
-	<td class="tease" align="right">28</td>
+	<td class="tease" align="right" id="AlaskaPIT">0.00</td>
+	<td class="tease" align="right" id="AlaskaPTR">45</td>
+	<td class="tease" align="right" id="AlaskaST">15.42</td>
+	<td class="tease" align="right" id="AlaskaSR">47</td>
+	<td class="tease" align="right" id="AlaskaTT">102.76</td>
+	<td class="tease" align="right" id="AlaskaTR">28</td>
 </tr>
 <tr valign="middle">
 	<td class="tease" style="font-weight: bold;">Arizona</td>
-	<td class="tease" align="right">15.15</td>
-	<td class="tease" align="right">40</td>
-	<td class="tease" align="right">51.30</td>
-	<td class="tease" align="right">8</td>
-	<td class="tease" align="right">104.47</td>
-	<td class="tease" align="right">19</td>
+	<td class="tease" align="right" id="ArizonaPIT">15.15</td>
+	<td class="tease" align="right" id="ArizonaPTR">40</td>
+	<td class="tease" align="right" id="ArizonaST">51.30</td>
+	<td class="tease" align="right" id="ArizonaSR">8</td>
+	<td class="tease" align="right" id="ArizonaTT">104.47</td>
+	<td class="tease" align="right" id="ArizonaTR">19</td>
 </tr>
 <tr valign="middle" bgcolor="#dddddd">
 	<td class="tease" style="font-weight: bold;">Arkansas</td>
-	<td class="tease" align="right">25.21</td>
-	<td class="tease" align="right">22</td>
-	<td class="tease" align="right">53.78</td>
-	<td class="tease" align="right">5</td>
-	<td class="tease" align="right">104.00</td>
-	<td class="tease" align="right">22</td>
+	<td class="tease" align="right" id="ArkansasPIT">25.21</td>
+	<td class="tease" align="right" id="ArkansasPTR">22</td>
+	<td class="tease" align="right" id="ArkansasST">53.78</td>
+	<td class="tease" align="right" id="ArkansasSR">5</td>
+	<td class="tease" align="right" id="ArkansasTT">104.00</td>
+	<td class="tease" align="right" id="ArkansasTR">22</td>
 </tr>
 <tr valign="middle">
 	<td class="tease" style="font-weight: bold;">California</td>
-	<td class="tease" align="right">29.09</td>
-	<td class="tease" align="right">13</td>
-	<td class="tease" align="right">36.59</td>
-	<td class="tease" align="right">24</td>
-	<td class="tease" align="right">106.01</td>
-	<td class="tease" align="right">17</td>
+	<td class="tease" align="right" id="CaliforniaPIT">29.09</td>
+	<td class="tease" align="right" id="CaliforniaPTR">13</td>
+	<td class="tease" align="right" id="CaliforniaST">36.59</td>
+	<td class="tease" align="right" id="CaliforniaSR">24</td>
+	<td class="tease" align="right" id="CaliforniaTT">106.01</td>
+	<td class="tease" align="right" id="CaliforniaTR">17</td>
 </tr>
 <tr valign="middle" bgcolor="#dddddd">
 	<td class="tease" style="font-weight: bold;">Colorado</td>
-	<td class="tease" align="right">23.08</td>
-	<td class="tease" align="right">30</td>
-	<td class="tease" align="right">35.21</td>
-	<td class="tease" align="right">30</td>
-	<td class="tease" align="right">92.30</td>
-	<td class="tease" align="right">45</td>
+	<td class="tease" align="right" id="ColoradoPIT">23.08</td>
+	<td class="tease" align="right" id="ColoradoPTR">30</td>
+	<td class="tease" align="right" id="ColoradoST">35.21</td>
+	<td class="tease" align="right" id="ColoradoSR">30</td>
+	<td class="tease" align="right" id="ColoradoTT">92.30</td>
+	<td class="tease" align="right" id="ColoradoTR">45</td>
 </tr>
 <tr valign="middle">
 	<td class="tease" style="font-weight: bold;">Connecticut</td>
-	<td class="tease" align="right">25.23</td>
-	<td class="tease" align="right">21</td>
-	<td class="tease" align="right">30.92</td>
-	<td class="tease" align="right">40</td>
-	<td class="tease" align="right">103.56</td>
-	<td class="tease" align="right">27</td>
+	<td class="tease" align="right" id="ConnecticutPIT">25.23</td>
+	<td class="tease" align="right" id="ConnecticutPTRR">21</td>
+	<td class="tease" align="right" id="ConnecticutST">30.92</td>
+	<td class="tease" align="right" id="ConnecticutSR">40</td>
+	<td class="tease" align="right" id="ConnecticutTT">103.56</td>
+	<td class="tease" align="right" id="ConnecticutTR">27</td>
 </tr>
 <tr valign="middle" bgcolor="#dddddd">
 	<td class="tease" style="font-weight: bold;">Delaware</td>
-	<td class="tease" align="right">30.47</td>
-	<td class="tease" align="right">12</td>
-	<td class="tease" align="right">13.02</td>
-	<td class="tease" align="right">49</td>
-	<td class="tease" align="right">107.24</td>
-	<td class="tease" align="right">15</td>
+	<td class="tease" align="right" id="DelawarePIT">30.47</td>
+	<td class="tease" align="right" id="DelawarePTR">12</td>
+	<td class="tease" align="right" id="DelawareST">13.02</td>
+	<td class="tease" align="right" id="DelawareSR">49</td>
+	<td class="tease" align="right" id="DelawareTT">107.24</td>
+	<td class="tease" align="right" id="DelawareTR">15</td>
 </tr>
 <tr valign="middle">
 	<td class="tease" style="font-weight: bold;">Florida</td>
-	<td class="tease" align="right">0.00</td>
-	<td class="tease" align="right">45</td>
-	<td class="tease" align="right">47.95</td>
-	<td class="tease" align="right">10</td>
-	<td class="tease" align="right">93.74</td>
-	<td class="tease" align="right">44</td>
+	<td class="tease" align="right" id="FloridaPIT">0.00</td>
+	<td class="tease" align="right" id="FloridaPTR">45</td>
+	<td class="tease" align="right" id="FloridaST">47.95</td>
+	<td class="tease" align="right" id="FloridaSR">10</td>
+	<td class="tease" align="right" id="FloridaTT">93.74</td>
+	<td class="tease" align="right" id="FloridaTR">44</td>
 </tr>
 <tr valign="middle" bgcolor="#dddddd">
 	<td class="tease" style="font-weight: bold;">Georgia</td>
-	<td class="tease" align="right">27.06</td>
-	<td class="tease" align="right">16</td>
-	<td class="tease" align="right">39.19</td>
-	<td class="tease" align="right">19</td>
-	<td class="tease" align="right">100.36</td>
-	<td class="tease" align="right">34</td>
+	<td class="tease" align="right" id="GeorgiaPIT">27.06</td>
+	<td class="tease" align="right" id="GeorgiaPTR">16</td>
+	<td class="tease" align="right" id="GeorgiaST">39.19</td>
+	<td class="tease" align="right" id="GeorgiaSR">19</td>
+	<td class="tease" align="right" id="GeorgiaTT">100.36</td>
+	<td class="tease" align="right" id="GeorgiaTR">34</td>
 </tr>
 <tr valign="middle">
 	<td class="tease" style="font-weight: bold;">Hawaii</td>
-	<td class="tease" align="right">31.63</td>
-	<td class="tease" align="right">9</td>
-	<td class="tease" align="right">63.85</td>
-	<td class="tease" align="right">1</td>
-	<td class="tease" align="right">120.62</td>
-	<td class="tease" align="right">4</td>
+	<td class="tease" align="right" id="HawaiiPIT">31.63</td>
+	<td class="tease" align="right" id="HawaiiPTR">9</td>
+	<td class="tease" align="right" id="HawaiiST">63.85</td>
+	<td class="tease" align="right" id="HawaiiSR">1</td>
+	<td class="tease" align="right" id="HawaiiTT">120.62</td>
+	<td class="tease" align="right" id="HawaiiTR">4</td>
 </tr>
 <tr valign="middle" bgcolor="#dddddd">
 	<td class="tease" style="font-weight: bold;">Idaho</td>
-	<td class="tease" align="right">25.56</td>
-	<td class="tease" align="right">19</td>
-	<td class="tease" align="right">34.45</td>
-	<td class="tease" align="right">33</td>
-	<td class="tease" align="right">99.84</td>
-	<td class="tease" align="right">36</td>
+	<td class="tease" align="right" id="IdahoPIT">25.56</td>
+	<td class="tease" align="right" id="IdahoPTR">19</td>
+	<td class="tease" align="right" id="IdahoST">34.45</td>
+	<td class="tease" align="right" id="IdahoSR">33</td>
+	<td class="tease" align="right" id="IdahoTT">99.84</td>
+	<td class="tease" align="right" id="IdahoTR">36</td>
 </tr>
 <tr valign="middle">
 	<td class="tease" style="font-weight: bold;">Illinois</td>
-	<td class="tease" align="right">18.21</td>
-	<td class="tease" align="right">37</td>
-	<td class="tease" align="right">33.82</td>
-	<td class="tease" align="right">34</td>
-	<td class="tease" align="right">101.31</td>
-	<td class="tease" align="right">29</td>
+	<td class="tease" align="right" id="IllinoisPIT">18.21</td>
+	<td class="tease" align="right" id="IllinoisPTR">37</td>
+	<td class="tease" align="right" id="IllinoisST">33.82</td>
+	<td class="tease" align="right" id="IllinoisSR">34</td>
+	<td class="tease" align="right" id="IllinoisTT">101.31</td>
+	<td class="tease" align="right" id="IllinoisTR">29</td>
 </tr>
 <tr valign="middle" bgcolor="#dddddd">
 	<td class="tease" style="font-weight: bold;">Indiana</td>
-	<td class="tease" align="right">24.36</td>
-	<td class="tease" align="right">25</td>
-	<td class="tease" align="right">32.64</td>
-	<td class="tease" align="right">38</td>
-	<td class="tease" align="right">100.39</td>
-	<td class="tease" align="right">33</td>
+	<td class="tease" align="right" id="IndianaPIT">24.36</td>
+	<td class="tease" align="right" id="IndianaPTR">25</td>
+	<td class="tease" align="right" id="IndianaST">32.64</td>
+	<td class="tease" align="right" id="IndianaSR">38</td>
+	<td class="tease" align="right" id="IndianaTT">100.39</td>
+	<td class="tease" align="right" id="IndianaTR">33</td>
 </tr>
 <tr valign="middle">
 	<td class="tease" style="font-weight: bold;">Iowa</td>
-	<td class="tease" align="right">22.62</td>
-	<td class="tease" align="right">32</td>
-	<td class="tease" align="right">35.98</td>
-	<td class="tease" align="right">27</td>
-	<td class="tease" align="right">103.85</td>
-	<td class="tease" align="right">24</td>
+	<td class="tease" align="right" id="IowaPIT">22.62</td>
+	<td class="tease" align="right" id="IowaPTR">32</td>
+	<td class="tease" align="right" id="IowaST">35.98</td>
+	<td class="tease" align="right" id="IowaSR">27</td>
+	<td class="tease" align="right" id="IowaTT">103.85</td>
+	<td class="tease" align="right" id="IowaTR">24</td>
 </tr>
 <tr valign="middle" bgcolor="#dddddd">
 	<td class="tease" style="font-weight: bold;">Kansas</td>
-	<td class="tease" align="right">24.11</td>
-	<td class="tease" align="right">26</td>
-	<td class="tease" align="right">39.85</td>
-	<td class="tease" align="right">18</td>
-	<td class="tease" align="right">103.66</td>
-	<td class="tease" align="right">26</td>
+	<td class="tease" align="right" id="KansasPIT">24.11</td>
+	<td class="tease" align="right" id="KansasPTR">26</td>
+	<td class="tease" align="right" id="KansasST">39.85</td>
+	<td class="tease" align="right" id="KansasSR">18</td>
+	<td class="tease" align="right" id="KansasTT">103.66</td>
+	<td class="tease" align="right" id="KansasTR">26</td>
 </tr>
 <tr valign="middle">
 	<td class="tease" style="font-weight: bold;">Kentucky</td>
-	<td class="tease" align="right">34.45</td>
-	<td class="tease" align="right">5</td>
-	<td class="tease" align="right">38.84</td>
-	<td class="tease" align="right">21</td>
-	<td class="tease" align="right">106.22</td>
-	<td class="tease" align="right">16</td>
+	<td class="tease" align="right" id="KentuckyPIT">34.45</td>
+	<td class="tease" align="right" id="KentuckyPTR">5</td>
+	<td class="tease" align="right" id="KentuckyST">38.84</td>
+	<td class="tease" align="right" id="KentuckySR">21</td>
+	<td class="tease" align="right" id="KentuckyTT">106.22</td>
+	<td class="tease" align="right" id="KentuckyTR">16</td>
 </tr>
 <tr valign="middle" bgcolor="#dddddd">
 	<td class="tease" style="font-weight: bold;">Louisiana</td>
-	<td class="tease" align="right">16.34</td>
-	<td class="tease" align="right">38</td>
-	<td class="tease" align="right">63.46</td>
-	<td class="tease" align="right">2</td>
-	<td class="tease" align="right">111.26</td>
-	<td class="tease" align="right">10</td>
+	<td class="tease" align="right" id="LouisianaPIT">16.34</td>
+	<td class="tease" align="right" id="LouisianaPTR">38</td>
+	<td class="tease" align="right" id="LouisianaST">63.46</td>
+	<td class="tease" align="right" id="LouisianaSR">2</td>
+	<td class="tease" align="right" id="LouisianaTT">111.26</td>
+	<td class="tease" align="right" id="LouisianaTR">10</td>
 </tr>
 <tr valign="middle">
 	<td class="tease" style="font-weight: bold;">Maine</td>
-	<td class="tease" align="right">30.75</td>
-	<td class="tease" align="right">11</td>
-	<td class="tease" align="right">35.59</td>
-	<td class="tease" align="right">29</td>
-	<td class="tease" align="right">130.16</td>
-	<td class="tease" align="right">2</td>
+	<td class="tease" align="right" id="MainePIT">30.75</td>
+	<td class="tease" align="right" id="MainePTR">11</td>
+	<td class="tease" align="right" id="MaineST">35.59</td>
+	<td class="tease" align="right" id="MaineSR">29</td>
+	<td class="tease" align="right" id="MaineTT">130.16</td>
+	<td class="tease" align="right" id="MaineTR">2</td>
 </tr>
 <tr valign="middle" bgcolor="#dddddd">
 	<td class="tease" style="font-weight: bold;">Maryland</td>
-	<td class="tease" align="right">40.16</td>
-	<td class="tease" align="right">2</td>
-	<td class="tease" align="right">26.13</td>
-	<td class="tease" align="right">44</td>
-	<td class="tease" align="right">104.42</td>
-	<td class="tease" align="right">20</td>
+	<td class="tease" align="right" id="MarylandPIT">40.16</td>
+	<td class="tease" align="right" id="MarylandPTR">2</td>
+	<td class="tease" align="right" id="MarylandST">26.13</td>
+	<td class="tease" align="right" id="MarylandSR">44</td>
+	<td class="tease" align="right" id="MarylandTT">104.42</td>
+	<td class="tease" align="right" id="MarylandTR">20</td>
 </tr>
 <tr valign="middle">
 	<td class="tease" style="font-weight: bold;">Massachusetts</td>
-	<td class="tease" align="right">31.75</td>
-	<td class="tease" align="right">8</td>
-	<td class="tease" align="right">21.52</td>
-	<td class="tease" align="right">45</td>
-	<td class="tease" align="right">95.87</td>
-	<td class="tease" align="right">40</td>
+	<td class="tease" align="right" id="MassachusettsPIT">31.75</td>
+	<td class="tease" align="right" id="MassachusettsPTR">8</td>
+	<td class="tease" align="right" id="MassachusettsST">21.52</td>
+	<td class="tease" align="right" id="MassachusettsSR">45</td>
+	<td class="tease" align="right" id="MassachusettsTT">95.87</td>
+	<td class="tease" align="right" id="MassachusettsTR">40</td>
 </tr>
 <tr valign="middle" bgcolor="#dddddd">
 	<td class="tease" style="font-weight: bold;">Michigan</td>
-	<td class="tease" align="right">22.35</td>
-	<td class="tease" align="right">34</td>
-	<td class="tease" align="right">34.69</td>
-	<td class="tease" align="right">32</td>
-	<td class="tease" align="right">103.83</td>
-	<td class="tease" align="right">25</td>
+	<td class="tease" align="right" id="MichiganPIT">22.35</td>
+	<td class="tease" align="right" id="MichiganPTR">34</td>
+	<td class="tease" align="right" id="MichiganST">34.69</td>
+	<td class="tease" align="right" id="MichiganSR">32</td>
+	<td class="tease" align="right" id="MichiganTT">103.83</td>
+	<td class="tease" align="right" id="MichiganTR">25</td>
 </tr>
 <tr valign="middle">
 	<td class="tease" style="font-weight: bold;">Minnesota</td>
-	<td class="tease" align="right">33.37</td>
-	<td class="tease" align="right">6</td>
-	<td class="tease" align="right">36.28</td>
-	<td class="tease" align="right">26</td>
-	<td class="tease" align="right">113.14</td>
-	<td class="tease" align="right">7</td>
+	<td class="tease" align="right" id="MinnesotaPIT">33.37</td>
+	<td class="tease" align="right" id="MinnesotaPTR">6</td>
+	<td class="tease" align="right" id="MinnesotaST">36.28</td>
+	<td class="tease" align="right" id="MinnesotaSR">26</td>
+	<td class="tease" align="right" id="MinnesotaTT">113.14</td>
+	<td class="tease" align="right" id="MinnesotaTR">7</td>
 </tr>
 <tr valign="middle" bgcolor="#dddddd">
 	<td class="tease" style="font-weight: bold;">Mississippi</td>
-	<td class="tease" align="right">15.69</td>
-	<td class="tease" align="right">39</td>
-	<td class="tease" align="right">51.85</td>
-	<td class="tease" align="right">7</td>
-	<td class="tease" align="right">103.92</td>
-	<td class="tease" align="right">23</td>
+	<td class="tease" align="right" id="MississippiPIT">15.69</td>
+	<td class="tease" align="right" id="MississippiPTR">39</td>
+	<td class="tease" align="right" id="MississippiST">51.85</td>
+	<td class="tease" align="right" id="MississippiSR">7</td>
+	<td class="tease" align="right" id="MississippiTT">103.92</td>
+	<td class="tease" align="right" id="MississippiTR">23</td>
 </tr>
 <tr valign="middle">
 	<td class="tease" style="font-weight: bold;">Missouri</td>
-	<td class="tease" align="right">24.95</td>
-	<td class="tease" align="right">23</td>
-	<td class="tease" align="right">38.39</td>
-	<td class="tease" align="right">22</td>
-	<td class="tease" align="right">96.06</td>
-	<td class="tease" align="right">39</td>
+	<td class="tease" align="right" id="MissouriPIT">24.95</td>
+	<td class="tease" align="right" id="MissouriPTR">23</td>
+	<td class="tease" align="right" id="MissouriST">38.39</td>
+	<td class="tease" align="right" id="MissouriSR">22</td>
+	<td class="tease" align="right" id="MissouriTT">96.06</td>
+	<td class="tease" align="right" id="MissouriTR">39</td>
 </tr>
 <tr valign="middle" bgcolor="#dddddd">
 	<td class="tease" style="font-weight: bold;">Montana</td>
-	<td class="tease" align="right">23.77</td>
-	<td class="tease" align="right">27</td>
-	<td class="tease" align="right">17.18</td>
-	<td class="tease" align="right">46</td>
-	<td class="tease" align="right">98.05</td>
-	<td class="tease" align="right">38</td>
+	<td class="tease" align="right" id="MontanaPIT">23.77</td>
+	<td class="tease" align="right" id="MontanaPTR">27</td>
+	<td class="tease" align="right" id="MontanaST">17.18</td>
+	<td class="tease" align="right" id="MontanaSR">46</td>
+	<td class="tease" align="right" id="MontanaTT">98.05</td>
+	<td class="tease" align="right" id="MontanaTR">38</td>
 </tr>
 <tr valign="middle">
 	<td class="tease" style="font-weight: bold;">Nebraska</td>
-	<td class="tease" align="right">23.37</td>
-	<td class="tease" align="right">28</td>
-	<td class="tease" align="right">36.86</td>
-	<td class="tease" align="right">23</td>
-	<td class="tease" align="right">107.71</td>
-	<td class="tease" align="right">14</td>
+	<td class="tease" align="right" id="NebraskaPIT">23.37</td>
+	<td class="tease" align="right" id="NebraskaPTR">28</td>
+	<td class="tease" align="right" id="NebraskaST">36.86</td>
+	<td class="tease" align="right" id="NebraskaSR">23</td>
+	<td class="tease" align="right" id="NebraskaTT">107.71</td>
+	<td class="tease" align="right" id="NebraskaTR">14</td>
 </tr>
 <tr valign="middle" bgcolor="#dddddd">
 	<td class="tease" style="font-weight: bold;">Nevada</td>
-	<td class="tease" align="right">0.00</td>
-	<td class="tease" align="right">45</td>
-	<td class="tease" align="right">60.41</td>
-	<td class="tease" align="right">4</td>
-	<td class="tease" align="right">101.20</td>
-	<td class="tease" align="right">30</td>
+	<td class="tease" align="right" id="NevadaPIT">0.00</td>
+	<td class="tease" align="right" id="NevadaPTR">45</td>
+	<td class="tease" align="right" id="NevadaST">60.41</td>
+	<td class="tease" align="right" id="NevadaSR">4</td>
+	<td class="tease" align="right" id="NevadaTT">101.20</td>
+	<td class="tease" align="right" id="NevadaTR">30</td>
 </tr>
 <tr valign="middle">
 	<td class="tease" style="font-weight: bold;">New Hampshire</td>
-	<td class="tease" align="right">1.68</td>
-	<td class="tease" align="right">42</td>
-	<td class="tease" align="right">14.24</td>
-	<td class="tease" align="right">48</td>
-	<td class="tease" align="right">84.65</td>
-	<td class="tease" align="right">49</td>
+	<td class="tease" align="right" id="New HampshirePIT">1.68</td>
+	<td class="tease" align="right" id="New HampshirePTR">42</td>
+	<td class="tease" align="right" id="New HampshireST">14.24</td>
+	<td class="tease" align="right" id="New HampshireSR">48</td>
+	<td class="tease" align="right" id="New HampshireTT">84.65</td>
+	<td class="tease" align="right" id="New HampshireTR">49</td>
 </tr>
 <tr valign="middle" bgcolor="#dddddd">
 	<td class="tease" style="font-weight: bold;">New Jersey</td>
-	<td class="tease" align="right">20.66</td>
-	<td class="tease" align="right">35</td>
-	<td class="tease" align="right">26.49</td>
-	<td class="tease" align="right">43</td>
-	<td class="tease" align="right">104.20</td>
-	<td class="tease" align="right">21</td>
+	<td class="tease" align="right" id="New JerseyPIT">20.66</td>
+	<td class="tease" align="right" id="New JerseyPTR">35</td>
+	<td class="tease" align="right" id="New JerseyST">26.49</td>
+	<td class="tease" align="right" id="New JerseySR">43</td>
+	<td class="tease" align="right" id="New JerseyTT">104.20</td>
+	<td class="tease" align="right" id="New JerseyTR">21</td>
 </tr>
 <tr valign="middle">
 	<td class="tease" style="font-weight: bold;">New Mexico</td>
-	<td class="tease" align="right">22.46</td>
-	<td class="tease" align="right">33</td>
-	<td class="tease" align="right">53.00</td>
-	<td class="tease" align="right">6</td>
-	<td class="tease" align="right">111.45</td>
-	<td class="tease" align="right">9</td>
+	<td class="tease" align="right" id="New MexicoPIT">22.46</td>
+	<td class="tease" align="right" id="New MexicoPTR">33</td>
+	<td class="tease" align="right" id="New MexicoST">53.00</td>
+	<td class="tease" align="right" id="New MexicoSR">6</td>
+	<td class="tease" align="right" id="New MexicoTT">111.45</td>
+	<td class="tease" align="right" id="New MexicoTR">9</td>
 </tr>
 <tr valign="middle" bgcolor="#dddddd">
 	<td class="tease" style="font-weight: bold;">New York</td>
-	<td class="tease" align="right">44.45</td>
-	<td class="tease" align="right">1</td>
-	<td class="tease" align="right">33.10</td>
-	<td class="tease" align="right">36</td>
-	<td class="tease" align="right">130.79</td>
-	<td class="tease" align="right">1</td>
+	<td class="tease" align="right" id="New YorkPIT">44.45</td>
+	<td class="tease" align="right" id="New YorkPTR">1</td>
+	<td class="tease" align="right" id="New YorkST">33.10</td>
+	<td class="tease" align="right" id="New YorkSR">36</td>
+	<td class="tease" align="right" id="New YorkTT">130.79</td>
+	<td class="tease" align="right" id="New YorkTR">1</td>
 </tr>
 <tr valign="middle">
 	<td class="tease" style="font-weight: bold;">North Carolina</td>
-	<td class="tease" align="right">32.24</td>
-	<td class="tease" align="right">7</td>
-	<td class="tease" align="right">34.84</td>
-	<td class="tease" align="right">31</td>
-	<td class="tease" align="right">100.17</td>
-	<td class="tease" align="right">35</td>
+	<td class="tease" align="right" id="North CarolinaPIT">32.24</td>
+	<td class="tease" align="right" id="North CarolinaPTR">7</td>
+	<td class="tease" align="right" id="North CarolinaST">34.84</td>
+	<td class="tease" align="right" id="North CarolinaSR">31</td>
+	<td class="tease" align="right" id="North CarolinaTT">100.17</td>
+	<td class="tease" align="right" id="North CarolinaTR">35</td>
 </tr>
 <tr valign="middle" bgcolor="#dddddd">
 	<td class="tease" style="font-weight: bold;">North Dakota</td>
-	<td class="tease" align="right">12.14</td>
-	<td class="tease" align="right">41</td>
-	<td class="tease" align="right">41.90</td>
-	<td class="tease" align="right">17</td>
-	<td class="tease" align="right">105.19</td>
-	<td class="tease" align="right">18</td>
+	<td class="tease" align="right" id="North DakotaPIT">12.14</td>
+	<td class="tease" align="right" id="North DakotaPTR">41</td>
+	<td class="tease" align="right" id="North DakotaST">41.90</td>
+	<td class="tease" align="right" id="North DakotaSR">17</td>
+	<td class="tease" align="right" id="North DakotaTT">105.19</td>
+	<td class="tease" align="right" id="North DakotaTR">18</td>
 </tr>
 <tr valign="middle">
 	<td class="tease" style="font-weight: bold;">Ohio</td>
-	<td class="tease" align="right">36.18</td>
-	<td class="tease" align="right">4</td>
-	<td class="tease" align="right">33.03</td>
-	<td class="tease" align="right">37</td>
-	<td class="tease" align="right">110.96</td>
-	<td class="tease" align="right">11</td>
+	<td class="tease" align="right" id="OhioPIT">36.18</td>
+	<td class="tease" align="right" id="OhioPTR">4</td>
+	<td class="tease" align="right" id="OhioST">33.03</td>
+	<td class="tease" align="right" id="OhioSR">37</td>
+	<td class="tease" align="right" id="OhioTT">110.96</td>
+	<td class="tease" align="right" id="OhioTR">11</td>
 </tr>
 <tr valign="middle" bgcolor="#dddddd">
 	<td class="tease" style="font-weight: bold;">Oklahoma</td>
-	<td class="tease" align="right">25.91</td>
-	<td class="tease" align="right">17</td>
-	<td class="tease" align="right">39.06</td>
-	<td class="tease" align="right">20</td>
-	<td class="tease" align="right">99.53</td>
-	<td class="tease" align="right">37</td>
+	<td class="tease" align="right" id="OklahomaPIT">25.91</td>
+	<td class="tease" align="right" id="OklahomaPTR">17</td>
+	<td class="tease" align="right" id="OklahomaST">39.06</td>
+	<td class="tease" align="right" id="OklahomaSR">20</td>
+	<td class="tease" align="right" id="OklahomaTT">99.53</td>
+	<td class="tease" align="right" id="OklahomaTR">37</td>
 </tr>
 <tr valign="middle">
 	<td class="tease" style="font-weight: bold;">Oregon</td>
-	<td class="tease" align="right">37.12</td>
-	<td class="tease" align="right">3</td>
-	<td class="tease" align="right">8.98</td>
-	<td class="tease" align="right">50</td>
-	<td class="tease" align="right">90.93</td>
-	<td class="tease" align="right">46</td>
+	<td class="tease" align="right" id="OregonPIT">37.12</td>
+	<td class="tease" align="right" id="OregonPTR">3</td>
+	<td class="tease" align="right" id="OregonST">8.98</td>
+	<td class="tease" align="right" id="OregonSR">50</td>
+	<td class="tease" align="right" id="OregonTT">90.93</td>
+	<td class="tease" align="right" id="OregonTR">46</td>
 </tr>
 <tr valign="middle" bgcolor="#dddddd">
 	<td class="tease" style="font-weight: bold;">Pennsylvania</td>
-	<td class="tease" align="right">25.51</td>
-	<td class="tease" align="right">20</td>
-	<td class="tease" align="right">30.28</td>
-	<td class="tease" align="right">41</td>
-	<td class="tease" align="right">100.91</td>
-	<td class="tease" align="right">31</td>
+	<td class="tease" align="right" id="PennsylvaniaPIT">25.51</td>
+	<td class="tease" align="right" id="PennsylvaniaPTR">20</td>
+	<td class="tease" align="right" id="PennsylvaniaST">30.28</td>
+	<td class="tease" align="right" id="PennsylvaniaSR">41</td>
+	<td class="tease" align="right" id="PennsylvaniaTT">100.91</td>
+	<td class="tease" align="right" id="PennsylvaniaTR">31</td>
 </tr>
 <tr valign="middle">
 	<td class="tease" style="font-weight: bold;">Rhode Island</td>
-	<td class="tease" align="right">25.83</td>
-	<td class="tease" align="right">18</td>
-	<td class="tease" align="right">36.53</td>
-	<td class="tease" align="right">25</td>
-	<td class="tease" align="right">113.63</td>
-	<td class="tease" align="right">6</td>
+	<td class="tease" align="right" id="Rhode IslandPIT">25.83</td>
+	<td class="tease" align="right" id="Rhode IslandPTR">18</td>
+	<td class="tease" align="right" id="Rhode IslandST">36.53</td>
+	<td class="tease" align="right" id="Rhode IslandSR">25</td>
+	<td class="tease" align="right" id="Rhode IslandTT">113.63</td>
+	<td class="tease" align="right" id="Rhode IslandTR">6</td>
 </tr>
 <tr valign="middle" bgcolor="#dddddd">
 	<td class="tease" style="font-weight: bold;">South Carolina</td>
-	<td class="tease" align="right">23.08</td>
-	<td class="tease" align="right">29</td>
-	<td class="tease" align="right">33.65</td>
-	<td class="tease" align="right">35</td>
-	<td class="tease" align="right">95.82</td>
-	<td class="tease" align="right">41</td>
+	<td class="tease" align="right" id="South CarolinaPIT">23.08</td>
+	<td class="tease" align="right" id="South CarolinaPTR">29</td>
+	<td class="tease" align="right" id="South CarolinaST">33.65</td>
+	<td class="tease" align="right" id="South CarolinaSR">35</td>
+	<td class="tease" align="right" id="South CarolinaTT">95.82</td>
+	<td class="tease" align="right" id="South CarolinaTR">41</td>
 </tr>
 <tr valign="middle">
 	<td class="tease" style="font-weight: bold;">South Dakota</td>
-	<td class="tease" align="right">0.00</td>
-	<td class="tease" align="right">45</td>
-	<td class="tease" align="right">45.64</td>
-	<td class="tease" align="right">15</td>
-	<td class="tease" align="right">90.37</td>
-	<td class="tease" align="right">47</td>
+	<td class="tease" align="right" id="South DakotaPIT">0.00</td>
+	<td class="tease" align="right" id="South DakotaPTR">45</td>
+	<td class="tease" align="right" id="South DakotaST">45.64</td>
+	<td class="tease" align="right" id="South DakotaSR">15</td>
+	<td class="tease" align="right" id="South DakotaTT">90.37</td>
+	<td class="tease" align="right" id="South DakotaTR">47</td>
 </tr>
 <tr valign="middle" bgcolor="#dddddd">
 	<td class="tease" style="font-weight: bold;">Tennessee</td>
-	<td class="tease" align="right">0.95</td>
-	<td class="tease" align="right">43</td>
-	<td class="tease" align="right">48.24</td>
-	<td class="tease" align="right">9</td>
-	<td class="tease" align="right">83.89</td>
-	<td class="tease" align="right">50</td>
+	<td class="tease" align="right" id="TennesseePIT">0.95</td>
+	<td class="tease" align="right" id="TennesseePTR">43</td>
+	<td class="tease" align="right" id="TennesseeST">48.24</td>
+	<td class="tease" align="right" id="TennesseeSR">9</td>
+	<td class="tease" align="right" id="TennesseeTT">83.89</td>
+	<td class="tease" align="right" id="TennesseeTR">50</td>
 </tr>
 <tr valign="middle">
 	<td class="tease" style="font-weight: bold;">Texas</td>
-	<td class="tease" align="right">0.00</td>
-	<td class="tease" align="right">44</td>
-	<td class="tease" align="right">46.37</td>
-	<td class="tease" align="right">14</td>
-	<td class="tease" align="right">95.49</td>
-	<td class="tease" align="right">42</td>
+	<td class="tease" align="right" id="TexasPIT">0.00</td>
+	<td class="tease" align="right" id="TexasPTR">44</td>
+	<td class="tease" align="right" id="TexasST">46.37</td>
+	<td class="tease" align="right" id="TexasSR">14</td>
+	<td class="tease" align="right" id="TexasTT">95.49</td>
+	<td class="tease" align="right" id="TexasTR">42</td>
 </tr>
 <tr valign="middle" bgcolor="#dddddd">
 	<td class="tease" style="font-weight: bold;">Utah</td>
-	<td class="tease" align="right">28.88</td>
-	<td class="tease" align="right">14</td>
-	<td class="tease" align="right">47.10</td>
-	<td class="tease" align="right">12</td>
-	<td class="tease" align="right">108.39</td>
-	<td class="tease" align="right">13</td>
+	<td class="tease" align="right" id="UtahPIT">28.88</td>
+	<td class="tease" align="right" id="UtahPTR">14</td>
+	<td class="tease" align="right" id="UtahST">47.10</td>
+	<td class="tease" align="right" id="UtahSR">12</td>
+	<td class="tease" align="right" id="UtahTT">108.39</td>
+	<td class="tease" align="right" id="UtahTR">13</td>
 </tr>
 <tr valign="middle">
 	<td class="tease" style="font-weight: bold;">Vermont</td>
-	<td class="tease" align="right">22.95</td>
-	<td class="tease" align="right">31</td>
-	<td class="tease" align="right">32.24</td>
-	<td class="tease" align="right">39</td>
-	<td class="tease" align="right">110.6</td>
-	<td class="tease" align="right">12</td>
+	<td class="tease" align="right" id="VermontPIT">22.95</td>
+	<td class="tease" align="right" id="VermontPTR">31</td>
+	<td class="tease" align="right" id="VermontST">32.24</td>
+	<td class="tease" align="right" id="VermontSR">39</td>
+	<td class="tease" align="right" id="VermontTT">110.6</td>
+	<td class="tease" align="right" id="VermontTR">12</td>
 </tr>
 <tr valign="middle" bgcolor="#dddddd">
 	<td class="tease" style="font-weight: bold;">Virginia</td>
-	<td class="tease" align="right">28.86</td>
-	<td class="tease" align="right">15</td>
-	<td class="tease" align="right">28.14</td>
-	<td class="tease" align="right">42</td>
-	<td class="tease" align="right">95.18</td>
-	<td class="tease" align="right">43</td>
+	<td class="tease" align="right" id="VirginiaPIT">28.86</td>
+	<td class="tease" align="right" id="VirginiaPTR">15</td>
+	<td class="tease" align="right" id="VirginiaST">28.14</td>
+	<td class="tease" align="right" id="VirginiaSR">42</td>
+	<td class="tease" align="right" id="VirginiaTT">95.18</td>
+	<td class="tease" align="right" id="VirginiaTR">43</td>
 </tr>
 <tr valign="middle">
 	<td class="tease" style="font-weight: bold;">Washington</td>
-	<td class="tease" align="right">0.00</td>
-	<td class="tease" align="right">45</td>
-	<td class="tease" align="right">61.92</td>
-	<td class="tease" align="right">3</td>
-	<td class="tease" align="right">100.90</td>
-	<td class="tease" align="right">32</td>
+	<td class="tease" align="right" id="WashingtonPIT">0.00</td>
+	<td class="tease" align="right" id="WashingtonPTR">45</td>
+	<td class="tease" align="right" id="WashingtonST">61.92</td>
+	<td class="tease" align="right" id="WashingtonSR">3</td>
+	<td class="tease" align="right" id="WashingtonTT">100.90</td>
+	<td class="tease" align="right" id="WashingtonTR">32</td>
 </tr>
 <tr valign="middle" bgcolor="#dddddd">
 	<td class="tease" style="font-weight: bold;">West Virginia</td>
-	<td class="tease" align="right">24.90</td>
-	<td class="tease" align="right">24</td>
-	<td class="tease" align="right">47.64</td>
-	<td class="tease" align="right">11</td>
-	<td class="tease" align="right">111.68</td>
-	<td class="tease" align="right">8</td>
+	<td class="tease" align="right" id="West VirginiaPIT">24.90</td>
+	<td class="tease" align="right" id="West VirginiaPTR">24</td>
+	<td class="tease" align="right" id="West VirginiaST">47.64</td>
+	<td class="tease" align="right" id="West VirginiaSR">11</td>
+	<td class="tease" align="right" id="West VirginiaTT">111.68</td>
+	<td class="tease" align="right" id="West VirginiaTR">8</td>
 </tr>
 <tr valign="middle">
 	<td class="tease" style="font-weight: bold;">Wisconsin</td>
-	<td class="tease" align="right">31.34</td>
-	<td class="tease" align="right">10</td>
-	<td class="tease" align="right">35.90</td>
-	<td class="tease" align="right">28</td>
-	<td class="tease" align="right">117.26</td>
-	<td class="tease" align="right">5</td>
+	<td class="tease" align="right" id="WisconsinPIT">31.34</td>
+	<td class="tease" align="right" id="WisconsinPTR">10</td>
+	<td class="tease" align="right" id="WisconsinST">35.90</td>
+	<td class="tease" align="right" id="WisconsinSR">28</td>
+	<td class="tease" align="right" id="WisconsinTT">117.26</td>
+	<td class="tease" align="right" id="WisconsinTR">5</td>
 </tr>
 <tr valign="middle" bgcolor="#dddddd">
 	<td class="tease" style="font-weight: bold;">Wyoming</td>
-	<td class="tease" align="right">0.00</td>
-	<td class="tease" align="right">45</td>
-	<td class="tease" align="right">46.38</td>
-	<td class="tease" align="right">13</td>
-	<td class="tease" align="right">121.97</td>
-	<td class="tease" align="right">3</td>
+	<td class="tease" align="right" id="WyomingPIT">0.00</td>
+	<td class="tease" align="right" id="WyomingPTR">45</td>
+	<td class="tease" align="right" id="WyomingST">46.38</td>
+	<td class="tease" align="right" id="WyomingSR">13</td>
+	<td class="tease" align="right" id="WyomingTT">121.97</td>
+	<td class="tease" align="right" id="WyomingTR">3</td>
 </tr>
 <tr valign="middle"><td colspan="7" class="credit">* Includes property taxes, personal income taxes, and sales and excise taxes.</td></tr>
 </table>
