@@ -29,6 +29,7 @@ namespace StateIncomeSalesTotalTaxApp
                 Console.WriteLine("{0} file was just created", fileName);
             }
 
+            //var stateTaxInfo = new List<StateInfo>();
             StateInfo stateInfo = new StateInfo();
             string line;
 
@@ -47,65 +48,113 @@ namespace StateIncomeSalesTotalTaxApp
                     {
                         line = line.Split('>', '/')[1];
                         line = line.TrimEnd('<');
-                        double personalIncomeTax = double.Parse(line);
-                        stateInfo.personalIncomeTax.Add(personalIncomeTax);
+                        stateInfo.personalIncomeTax.Add(line);
                     }
                     //PTR - Personal Income Tax Rank
                     if (line.Contains("PTR"))
                     {
                         line = line.Split('>', '/')[1];
                         line = line.TrimEnd('<');
-                        int personalIncomeTaxRank = int.Parse(line);
-                        stateInfo.personalIncomeTaxRank.Add(personalIncomeTaxRank);
+                        stateInfo.personalIncomeTaxRank.Add(line);
                     }
                     //STR - Sales Tax
                     if (line.Contains("ST\">"))
                     {
                         line = line.Split('>', '/')[1];
                         line = line.TrimEnd('<');
-                        double salesTax = double.Parse(line);
-                        stateInfo.salesTax.Add(salesTax);
+                        stateInfo.salesTax.Add(line);
                     }
                     //STR - Sales Tax Rank
                     if (line.Contains("SR\">"))
                     {
                         line = line.Split('>', '/')[1];
                         line = line.TrimEnd('<');
-                        int salesTaxRank = int.Parse(line);
-                        stateInfo.salesTaxRank.Add(salesTaxRank);
+                        stateInfo.salesTaxRank.Add(line);
                     }
                     //TT - Total Tax
                     if (line.Contains("TT\">"))
                     {
                         line = line.Split('>', '/')[1];
                         line = line.TrimEnd('<');
-                        double totalTax = double.Parse(line);
-                        stateInfo.totalTax.Add(totalTax);
+                        stateInfo.totalTax.Add(line);
                     }
                     //TR - Total Tax Rank
                     if (line.Contains("TR\">"))
                     {
                         line = line.Split('>', '/')[1];
                         line = line.TrimEnd('<');
-                        int totalTaxRank = int.Parse(line);
-                        stateInfo.totalTaxRank.Add(totalTaxRank);
+                        stateInfo.totalTaxRank.Add(line);
                     }
                 }
             }
 
-            Console.WriteLine("* State * Personal Income Tax * Rank * Sales Tax * Rank * Total Tax * Rank *");
+            Console.WriteLine("Would you like to see a complete list of state tax info?");
+            string answer = Console.ReadLine();
+
+            List<List<string>> stateTaxInfo = new List<List<string>>();
 
             for (int i = 0; i < stateInfo.states.Count; i++)
             {
-                Console.WriteLine(stateInfo.states[i].PadRight(15) +
-                    stateInfo.personalIncomeTax[i].ToString().PadRight(18) +
-                    stateInfo.personalIncomeTaxRank[i].ToString().PadRight(8) + 
-                    stateInfo.salesTax[i].ToString().PadRight(10) +
-                    stateInfo.salesTaxRank[i].ToString().PadRight(9) +
-                    stateInfo.totalTax[i].ToString().PadRight(11) +
-                    stateInfo.totalTaxRank[i]);
+                stateTaxInfo.Add(new List<string> {
+                    stateInfo.states[i],
+                    stateInfo.personalIncomeTax[i],
+                    stateInfo.personalIncomeTaxRank[i],
+                    stateInfo.salesTax[i],
+                    stateInfo.salesTaxRank[i],
+                    stateInfo.totalTax[i],
+                    stateInfo.totalTaxRank[i]
+                });
             }
 
+            void Output(int stateIndex)
+            {
+                Console.WriteLine(
+                        stateTaxInfo[stateIndex][0].ToString().PadRight(15) +
+                        stateTaxInfo[stateIndex][1].PadRight(18) +
+                        stateTaxInfo[stateIndex][2].PadRight(8) +
+                        stateTaxInfo[stateIndex][3].PadRight(10) +
+                        stateTaxInfo[stateIndex][4].PadRight(9) +
+                        stateTaxInfo[stateIndex][5].PadRight(11) +
+                        stateTaxInfo[stateIndex][6]
+                        );
+            }
+
+            if (answer.ToLower() == "yes" || answer.ToLower() == "y")
+            {
+                Console.WriteLine("* State * Personal Income Tax * Rank * Sales Tax * Rank * Total Tax * Rank *");
+
+                for (int i = 0; i < stateInfo.states.Count; i++)
+                {
+                    Output(i);
+                }
+            }
+
+            Console.WriteLine("Would you like to compare states?");
+            string compareStatesAnswer = Console.ReadLine();
+
+            if (compareStatesAnswer.ToLower() == "yes" || compareStatesAnswer.ToLower() == "y")
+            {
+                Console.WriteLine("How many states?");
+                int numberOfStates = int.Parse(Console.ReadLine());
+
+                int i = 0;
+                while (i < numberOfStates)
+                {
+                    Console.WriteLine("Pick a state");
+                    string stateSelection = Console.ReadLine();
+
+                    for (int k = 0; k < stateInfo.states.Count; k++)
+                    {
+                        var state = stateTaxInfo[k][0].ToString();
+
+                        if (stateSelection.ToLower() == state.ToLower())
+                        {
+                            Output(k);
+                        }
+                    }
+                    i++;
+                }
+            }
             Console.ReadKey();
         }
     }

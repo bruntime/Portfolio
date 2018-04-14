@@ -9,15 +9,11 @@ namespace StateIncomeSalesTotalTaxApp
     public class StateInfo
     {
         public List<string> states = new List<string>();
-        public List<double> personalIncomeTax = new List<double>();
-        public List<int> personalIncomeTaxRank = new List<int>();
-        public List<double> salesTax = new List<double>();
-        public List<int> salesTaxRank = new List<int>();
-        public List<double> totalTax = new List<double>();
-        public List<int> totalTaxRank = new List<int>();
-
-        public StateInfo()
-        {
-        }
+        public List<string> personalIncomeTax = new List<string>();
+        public List<string> personalIncomeTaxRank = new List<string>();
+        public List<string> salesTax = new List<string>();
+        public List<string> salesTaxRank = new List<string>();
+        public List<string> totalTax = new List<string>();
+        public List<string> totalTaxRank = new List<string>();
     }
 }
